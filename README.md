@@ -26,9 +26,12 @@ To get overview how analyst use Excel for data cleaning.
 10. At the moment I kept all columns. But as keeping the source file and actual working file separatly - probably columns A, C, G, E won't be needed in cleaned file.
 
 -- After using Google Sheets made also following:
+
 11. In Google Sheets trimmed in Prior column "Democratic- Republican". Correcting hint dissappeared but it kept the space before "Republican". In Excel used CTRL+H and changed it to "Democratic-Republican".
 12. And there was also encoding prolbem in Prior column:
+    
 ![image](https://github.com/user-attachments/assets/bca54a55-7ba4-4e12-99db-f811b8121b96)
+
 There are several solutions as to do it. I exported .csv file, saved in VSCode as .xls. And uploaded in desktop version of Excel again. The program opened Export Wizard:
 - Choose the UTF-8 encoding.
 - Checkmark to mark column headers are in file.
