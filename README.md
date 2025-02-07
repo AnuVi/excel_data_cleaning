@@ -9,7 +9,7 @@ To get an overview how analyst uses Excel for data cleaning.
 
 # Steps
 1. Find if there are any duplicates
-    - Data -> Remove Duplicates.
+    - <em>Data -> Remove Duplicates</em>.
 2. Cleaning the President column
     - UPPER/LOWER
     - PROPER - each word starts with a capital letter.
