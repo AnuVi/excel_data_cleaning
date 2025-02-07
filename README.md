@@ -48,8 +48,6 @@ There are several solutions to do it. I exported the .csv file, saved it in VSCo
 
 - First time I noticed this <em>Cleanup section</em>. I do not know what caused this pop-up, but it can also be found <em>Data -> Data Cleanup</em>.
 - Columns E/G can be ignored, because these are orignal columns, but rows 29-30 got my attention (marked yellow on the pic). Why did not Excel remove one of them as a duplicate? A little bit digging and the answer was in column E: a spelling mistake in word "democratic" was the reason. As my flow was following: removing duplicates -> removing spelling mistakes ->  Excel coudn't remove because the rows were different.
-  
-**The Biggest Takeways**
--  The workflow should be: <em> remove duplicates -> manipulating strings (e.g. spelling mistakes, trimming, choosing on standard-word, replacing) -> remove duplicates once again </em>. 
+-  The workflow should have been: <em> remove duplicates -> manipulating strings (e.g. spelling mistakes, trimming, choosing on standard-word, replacing) -> remove duplicates once again </em>. 
 -  If the dataset is not big use different tools to cross-check yourself.
   
